@@ -1,4 +1,4 @@
-name: T3.1
+name: Github Actions CI-monitorointi
 
 on: [push]
 
