@@ -23,6 +23,7 @@ jobs:
           pip install coverage
       - name: Run Pytest and Coverage
         run: |
+          pytest
           coverage run -m pytest
           - name: Report
              run: |
